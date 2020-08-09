@@ -1,0 +1,53 @@
+@media only screen and (max-width: 650px) {
+  header{
+    height: 15vh;
+    justify-content: flex-start;
+  }
+
+  .menu-burger{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .logo{
+    width: 250px;
+    height: 100%;
+    object-fit: fill;
+    
+  }
+  .list-menu{
+    display: none
+  }
+  .contenido{
+    height: 65vh;
+  }
+  .titulo-contenido,.icon-dice{
+    font-size : 25px
+  }
+
+  .item-game{
+    max-width: 250px;
+    margin: auto;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    color: yellow;
+    padding: 15px;
+    margin-top: 30px ;
+  }
+  .footer{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    justify-content: center	;
+    height: 20vh;
+  
+  }
+
+  
+  
+}
