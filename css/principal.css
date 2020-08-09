@@ -15,6 +15,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .nav-menu{
@@ -44,7 +45,7 @@ header{
    color: #F3F346 ;
    margin-left: 10px;
    padding:5px;
-   transition: 0.3s;
+   transition: 0.2s;
  }
 
 
